@@ -1,14 +1,15 @@
 import React, {Component} from "react";
 import "./App.css";
+import Graphics from './Components/Graphics'
 
-class App extends Component {
-  render() {
+const App = () =>  {
+  
     return (
       <div>
-        <div ref="canvas"></div>
+        <Graphics/>
       </div>
     );
-  }
 }
 
 export default App;
+
